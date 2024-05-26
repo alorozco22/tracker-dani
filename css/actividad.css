@@ -1,0 +1,44 @@
+#actividad .card {
+	background-color: #005580;
+}
+
+#actividad .card h2 {
+	padding-bottom: 20px;
+	text-align: center;
+	
+}
+
+.descripcion-actividad {
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+#actividad .recursos-card {
+	padding-left: 20%;
+	padding-bottom: 20px;
+}
+
+#actividad .recursos-card a {
+	color: white;
+	font-size: 1.2em;
+}
+
+#actividad .recursos-card ul {
+	list-style-type:none;
+}
+
+#actividad .componente-libre {
+	padding-bottom: 20px;
+}
+
+#actividad .cards-container .card button {
+	background-color: white;
+	color: #005580;
+
+}
+
+.emoji {
+	background-color: white;
+	font-size: 2em;
+	border-radius: 4px;
+}

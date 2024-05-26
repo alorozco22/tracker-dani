@@ -1,0 +1,38 @@
+#hoy .container, #actividad .container {
+	display: flex;
+	justify-content: top;
+	align-content: center;
+	flex-direction: column;
+
+}
+
+.cards-container {
+	max-height: 70vh;
+	overflow-y: auto;
+	scrollbar-width: none;
+	-ms-overflow-style:none;
+}
+
+.cards-container::-webkit-scrollbar {
+	display: none;
+}
+
+#hoy .title-container, #actividad .title-container {
+	/*background-color: lightblue;*/
+	text-align: center;
+	padding: 10px;
+}
+
+#hoy .card, #actividad .card {
+ padding: 20px;
+ margin-bottom: 10px;
+ background-color: #00b386;
+ color: white;
+ border-radius: 15px;
+}
+
+#hoy h1 {
+	padding: 15px;
+	padding-bottom: 5px;
+}
+
