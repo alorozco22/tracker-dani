@@ -3,6 +3,7 @@ let areaActual = undefined;
 function inicializarVistaActividad(id){
 	areaActual = getArea(id);
 	document.getElementById("titulo-area").innerHTML = areaActual.titulo;
+	initTemplateCardActividad();
 	setActividadesVisibles(id);
 	agregarCardsActividad(actividadesVisibles);
 
@@ -26,6 +27,7 @@ function agregarCardsActividad(actividades){
 		}
 		newCard.querySelector(".titulo-actividad").innerHTML = actividades[i].titulo;
 		newCard.querySelector(".texto-descripcion").innerHTML = actividades[i].descripcion;
+
 		newCard.querySelector(".rec1").innerHTML = '<a target="_blank" href="'.concat(actividades[i].links[0].concat('">'.concat(actividades[i].recursos[0].concat('</a>'))));
 		newCard.querySelector(".rec2").innerHTML = '<a target="_blank" href="'.concat(actividades[i].links[1].concat('">'.concat(actividades[i].recursos[1].concat('</a>'))));
 		newCard.querySelector(".rec3").innerHTML = '<a target="_blank" href="'.concat(actividades[i].links[2].concat('">'.concat(actividades[i].recursos[2].concat('</a>'))));
