@@ -60,6 +60,6 @@ let actividadesVisibles = diccionarioActividades[2]
 
 ////////// SIMULAR ALGÚN DÍA /////////
 function simularDia(diaOriginal){
-	diaOriginal = 3; // Aquí podemos simular un día si se desea 0 es domingo, 1 es lunes... 6 es sábado
+	diaOriginal = diaOriginal; // Aquí podemos simular un día si se desea 0 es domingo, 1 es lunes... 6 es sábado
 	return diaOriginal;
 }
