@@ -8,8 +8,8 @@ const horasMartes = [Area(1, "Dios", 2, "#003399"),Area(4, "Comisión", 4, "#600
 const horasMiercoles = [Area(1, "Dios", 7, "#003399"),
   Area(2, "Proyectos", 2, "#600080"),
   Area(13, "Extra", 2, "#99004d"),
-Area(9, "Estrategia con mi chico", 100, "#2a0080"),
-Area(10, "Configuraciones", 100, "#009999")]
+Area(9, "Estrategia con mi chico", 0, "#2a0080"),
+Area(10, "Configuraciones", 0, "#009999")]
 const horasJueves = [Area(4, "Comisión", 2, "#600080"),Area(5, "Marca del perfil ESG", 2, "#008080"),Area(6, "Fortalecer contactos", 2, "#008080"),Area(7, "Cursos & workshops", 1, "#600080"),Area(11, "Ejercicio", 3, "#ff8080"),Area(9, "Estrategia con mi chico", 100, "#2a0080"),Area(10, "Configuraciones", 100, "#009999")]
 const horasViernes = [Area(1, "Dios", 2, "#003399"),Area(3, "Aplicaciones", 2, "#008080"),Area(7, "Cursos & workshops", 2, "#600080"),Area(11, "Ejercicio", 1, "#ff8080"),Area(12, "Transporte", 3, "#00e6ac"),Area(10, "Configuraciones", 100, "#009999")]
 const horasSabado = [Area(1, "Dios", 1, "#003399"),Area(7, "Cursos & workshops", 2, "#600080"),Area(11, "Ejercicio", 3, "#ff8080"),Area(13, "Extra", 3, "#99004d"),Area(10, "Configuraciones", 100, "#009999")]
