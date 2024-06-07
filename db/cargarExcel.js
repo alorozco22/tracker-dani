@@ -10,7 +10,7 @@ const horasJueves = [Area(4, "Comisión", 2, "#600080"),Area(5, "Marca del perfi
 const horasViernes = [Area(1, "Dios", 2, "#003399"),Area(3, "Aplicaciones", 2, "#008080"),Area(6, "Fortalecer contactos", 2, "#008080"),Area(7, "Cursos & workshops", 2, "#600080"),Area(13, "Extra", 3, "#99004d"),Area(10, "Configuraciones", 0, "#009999")]
 const horasSabado = [Area(11, "Ejercicio", 3, "#ff8080"),Area(1, "Dios", 1, "#003399"),Area(7, "Cursos & workshops", 2, "#600080"),Area(13, "Extra", 3, "#99004d"),Area(10, "Configuraciones", 0, "#009999")]
 const horasDomingo = [Area(1, "Dios", 2, "#003399"),Area(13, "Extra", 3, "#99004d"),Area(10, "Configuraciones", 0, "#009999")]
-
+const nada = ""
 ////////////////////////////////////////
 
 let areasDeHoy = horasLunes
