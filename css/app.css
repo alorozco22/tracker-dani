@@ -63,7 +63,7 @@ html {
 	border:none;
 	border-radius: 5px;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 #hoy, #hoy .container{
@@ -82,6 +82,11 @@ html {
 }
 
 #cerrar, #cerrar .container {
+	/*background-color: lightgreen;*/
+	height: 100%;
+}
+
+#tracker, #tracker .container {
 	/*background-color: lightgreen;*/
 	height: 100%;
 }

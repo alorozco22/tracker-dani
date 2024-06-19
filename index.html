@@ -16,6 +16,7 @@
 	<script src="./js/actividad.js"></script>
 	<script src="./db/db.js"></script>
 	<script src="./db/cargarExcel.js"></script>
+	<script src="./db/testApiGSheets.js"></script>
 
 	
 	<title>Tracker</title>
@@ -26,7 +27,7 @@
 			<section id ="hoy">
 				<div class="container">
 					<div class="title-container">
-						<h1><span id="diaSemana">Martes</span> (<span id="numeroDia">19</span>)</h1>
+						<h1><a href="#" onclick="atras()" style="font-size: 30px; text-decoration: none;">🔙</a> <span id="diaSemana">Martes</span> (<span id="numeroDia">19</span>)</h1>
 						<p id="hora"></p>
 					</div>
 
@@ -60,19 +61,36 @@
 			<section id ="acumulado">
 				<div class="container">
 					<h1>Acumulado</h1>
+					<iframe id="acum-vis"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSfathxkOQ-LNQ44DvwR7uNK--iPLgPChbZ6UIQKDqzHnw2Y6iwNW3wKLFOd2hfCMoCuR2r7EqJhJG8/pubhtml?gid=455491978&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 				</div>
 			</section>
+
+			<section id ="tracker">
+
+					
+						<iframe src="https://docs.google.com/spreadsheets/d/19IXwTlhiCpXFf9oa9NaeWE4_BPYIEAFsgqJtYxq9Ez8/edit?usp=sharing" ></iframe>
+					
+
+			</section>
+
 			<section id ="cerrar">
-				<div class="container">
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesXBeaKzVOgyokEH9i8wvDVyg4ohj5VrD7vwZ7uNGP-527TQ/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-				</div>
+				
+					
+
+					
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesXBeaKzVOgyokEH9i8wvDVyg4ohj5VrD7vwZ7uNGP-527TQ/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+					
+					
+
+
 			</section>
 		</div>
 		<div class="footer">
 			<div class="footer-container">
-				<button onclick="butHoy()" id="butHoy">Hoy 🐶</button>
-				<button onclick="butAcumulado()"id="butAcumulado">Viaje 🦁</button>
-				<button onclick="butCerrar()" id="butCerrar">Cerrar 🦝</button>
+				<button onclick="butHoy()" id="butHoy">🐶</button>
+				<button onclick="butAcumulado()"id="butAcumulado">🌱</button>
+				<button onclick="butTracker()"id="butTracker">🦁</button>
+				<button onclick="butCerrar()" id="butCerrar">🦝</button>
 			</div>
 		</div>
 	</div>
